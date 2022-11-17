@@ -1,0 +1,61 @@
+.radius-top{
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.submit-btn{
+    background-color: #5b3979 !important;
+}
+
+.submit-btn:hover{
+    background-color: #c94316 !important;
+    transition: 0.5s;
+}
+
+.social-login{
+    position: relative;
+
+}
+
+.google{
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    margin-top: -52px;
+    margin-left: 90%;
+    background-color: #5c276a;
+    padding: 6px 5%;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 30px;
+}
+
+.git{
+    position: absolute;
+    color: white;
+    cursor: pointer;
+    margin-top: -52px;
+    margin-left: 72%;
+    background-color: #5c276a;
+    padding: 6px 5%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 30px;
+}
+
+.git:hover{
+    background-color: orangered;
+    color: white;
+    transition: 0.5s;
+}
+
+.google:hover{
+    background-color: orangered;
+    color: white;
+    transition: 0.5s;
+}
+
+
+
+/*.login-bg-control{*/
+/*    background-color: var(--course-card-bg) !important;*/
+/*    color: var(--text-primary) !important;*/
+/*}*/

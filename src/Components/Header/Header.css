@@ -1,0 +1,53 @@
+.nav-style{
+    background: #5c276a;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 25px;
+}
+
+.h-common{
+    background-color: green;
+    border-radius: 25px 15px 25px 15px;
+}
+
+.link-style a{
+    margin: 0 6px;
+    text-decoration: none;
+    padding: 2px 12px;
+    color: white;
+}
+
+.link-style a:hover{
+    color: white;
+    background-color: orangered;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
+.profile-image{
+    width: 25px;
+    cursor: pointer;
+}
+
+
+
+@media only screen and (min-width: 992px) {
+
+    .header{
+        position: absolute;
+        margin-bottom: 60px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+
+    .h-common{
+        border-radius: 6px;
+    }
+
+    /*.header{*/
+    /*    margin-left: 25vw;*/
+
+    /*}*/
+}

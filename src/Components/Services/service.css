@@ -1,0 +1,50 @@
+.product-image-control{
+    height: 200px;
+    cursor: pointer;
+}
+
+.profile-image-control{
+    width: 50px;
+    height: 50px !important;
+    padding: 12px 12px;
+    background-color: #c94316 !important;
+}
+
+.main-card{
+    position: relative;
+}
+
+.profile-div{
+    position: absolute;
+    margin-bottom: 20%;
+    margin-left: -30px;
+}
+
+.service-provider-info{
+    margin-left: 10%;
+}
+
+.card-header{
+    font-family: "Comic Sans MS";
+    background-color: #6226ac !important;
+}
+
+.comic-sans-ms{
+    font-family: "Comic Sans MS";
+}
+
+.details{
+    background-color: #6226ac !important;
+}
+
+.details-link{
+    text-decoration: none;
+    color: white;
+}
+
+.details:hover, .details-link:hover{
+    color: white;
+    cursor: pointer;
+    background-color: #5c276a !important;
+    transition: 0.5s;
+}
